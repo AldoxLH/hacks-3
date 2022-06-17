@@ -12,6 +12,12 @@ let foo = {
 };
 let result;
 
+result = foo.skills.map(function(idx){
+                        return idx;
+                    })
+
+
+
 
 //export result
 module.exports = result; 

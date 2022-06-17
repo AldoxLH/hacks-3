@@ -23,6 +23,12 @@ let bar = {
 }
 let result;
 
+/*result = {
+    ...foo,
+    ...bar
+};*/
+
+result = Object.assign(foo, bar);
 
 //export result
 module.exports = result; 

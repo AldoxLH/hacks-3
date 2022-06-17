@@ -13,6 +13,19 @@ let foo = {
     role:"admin"
 };
 let result = [];
+let arrKeys = Object.keys(foo);
+let arrVal = Object.values(foo);
+let idx = 0;
+let len = arrKeys.length
+
+for(;idx<len;idx++){
+    let inst = []
+    inst[0] = arrKeys[idx];
+    inst[1] = arrVal[idx];
+    result[idx]=inst;
+}
+
+result
 
 
 //export result
